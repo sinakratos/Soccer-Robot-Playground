@@ -67,8 +67,8 @@ int Robot::borderCheck() {
     checkValue = 2;
   } else {
     checkValue = 0;
-    cout << " tx : " << tempX << " ty : " << tempY << " tx : " << tempTheta
-         << endl;
+    // cout << " tx : " << tempX << " ty : " << tempY << " tx : " << tempTheta
+    //      << endl;
   }
   switch (checkValue) {
   case -1:

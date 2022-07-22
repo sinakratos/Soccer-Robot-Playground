@@ -161,7 +161,6 @@ int World::updateWindow() {
       case (int('q')):
         destroyAllWindows();
         return 0;
-        break;
       }
       if (mouseFlag == 0 || mouseFlag == -1 || mouseFlag == 2) {
         robot.setVelocity(0, 0, 0);
